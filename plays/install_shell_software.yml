@@ -1,0 +1,12 @@
+- name: Install shell software
+  hosts: localhost
+  roles:
+    - system_update
+    - git
+    - vim
+    - zsh
+    - tmux
+    - htop
+    - httpie
+    - docker
+    - etckeeper

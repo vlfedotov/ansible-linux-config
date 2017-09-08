@@ -1,0 +1,11 @@
+- name: Install base software
+  hosts: localhost
+  roles:
+    - python27
+    - python36
+    - node
+    - go
+    - lua
+    - php
+    - jdk
+    - kotlin

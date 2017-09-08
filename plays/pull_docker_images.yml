@@ -1,0 +1,8 @@
+- name: Pull docker images
+  hosts: localhost
+  roles:
+    - nginx
+    - mysql
+    - postgres
+    - mongo
+    - redis

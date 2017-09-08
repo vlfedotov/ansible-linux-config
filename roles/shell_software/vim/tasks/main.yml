@@ -1,0 +1,14 @@
+---
+
+- name: Install the package "vim"
+  apt:
+    name: vim
+    state: present
+
+#- name: Configure
+#  copy:
+#    src: /.vimrc
+#    dest: "/home/{{ USER }}/.vimrc"
+#    owner: "{{ USER }}"
+#    group: "{{ USER }}"
+#    mode: 0644

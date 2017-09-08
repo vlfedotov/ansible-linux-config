@@ -1,0 +1,7 @@
+- name: Install GUI software
+  hosts: localhost
+  roles:
+    - chrome
+    - atom
+    - brackets
+    - pycharm
